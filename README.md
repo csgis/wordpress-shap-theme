@@ -20,18 +20,22 @@ include dirname(__FILE__).'/mh/components/components.functions.php';
 ## Endpoints
 
 **Request Places (Taxonomie)**
+
 http://example.com/wp-json/shap/v1/shap__places
 
 **Request media-attachements (importiertd by SHAP-Importer)**
+
 http://example.com/wp-json/shap/v1/shap__medias/
 
 **Paging options**
+
 http://example.com/wp-json/shap/v1/shap__medias/?perPage=15&paged=1
 
 - perPage (int)		maximum number of posts returned by request
 - paged (int) 		defines returned page
 
 **Places Filter (Filter media by places parent id)**
+
 http://example.com/wp-json/shap/v1/shap__medias/?shap_places=24
 
 - shap_places (int) 	parent `term_id`. Returns all media for place 
