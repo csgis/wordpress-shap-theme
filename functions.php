@@ -1,4 +1,9 @@
 <?php
+
+	// include everything for the rest api and debug helper
+	include dirname(__FILE__).'/mh/functions/helper.functions.php';
+	include dirname(__FILE__).'/mh/components/components.functions.php';
+
 /**
  * Twenty Nineteen functions and definitions
  *
